@@ -1,6 +1,23 @@
 # 👋
 _Computer science graduate based in Sydney. Australian and Italian dual citizen 🇦🇺🇮🇹_ <br>
 
+I am seeking work within the field of computer science and am focused on maximizing the amount I can learn and
+develop technically and professionally. Systems programming, graphics, ML systems, and embedded systems
+interest me greatly.
+I have completed a 3 years Bachelor's and aim to undertake a master's degree sometime in the future.
+
+Skills:
+- Python3, C, Java, Scala
+- Linux/Debian, bash, Jenkins CI, git
+- Web protocols, REST API's, networking
+- PostgreSQL, sqLite, database programming 
+- Agile development methodologies and project development tools (scrum,
+agile, XP, Jira)
+- OO, functional and imperative programming paradigms.
+- Tensorflow, openCV, numpy, flask
+- CUDA , openMP, pthread, Cache hierarchy, coding for multiple cores.
+<br>
+
 [Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/)
 
 # 👨‍💻 University Projects
