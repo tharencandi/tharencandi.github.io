@@ -15,7 +15,7 @@ implementation and training of a DRAN CNN (UNET style architecture) and gigapixe
   - **_Technologies used:_** python3, openCV, numpy, keras, tensorflow, linux, bash, celery[redis], flask
 <br><br>
 
-**JOS kernel and userspace file system**
+**JOS kernel and userspace file system** <br>
 Implemented the JOS kernel (created by MIT) @ EPFL in CS-323. Code covers:
 - Booting (32 bit x86 boot process)
 - Memory management
@@ -25,23 +25,20 @@ Implemented the JOS kernel (created by MIT) @ EPFL in CS-323. Code covers:
 - **_Skills and Technologies_**: C, assembly, kernel programming, navigating a medium-size C and assembly code base, C, UNIX
 <br><br>
 
-**txt4libnds (personal project)**
-
+**txt4libnds (personal project)** <br>
 Simple text engine library for libNDS development. 
 - coded a simple system to create and manage 'text objects' for your nintendo ds projects.
 - see github 
 <br><br>
 
-**Firmware/ Embedded Software Development: Multiplayer Battleships Clone for the Nintendo DS**
-
+**Firmware/ Embedded Software Development: Multiplayer Battleships Clone for the Nintendo DS** <br>
 Designed and Implemented a game on the Nintendo DS entirely in c.
 - Coded using WIFI, graphics, and button hardware interfaces (required complete knowledge of NDS hardware design)
 - interrupts 
 <br><br>
 
-**Multiprocessor (NUMA) and CUDA experiments in c**
-
-various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems.
+**Multiprocessor (NUMA) and CUDA experiments in c**<br>
+Various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems.
 - ***Experiments:***
   1. heat transfer simulation with openMP
   2. Monte-Carlo-Intergration with openMP and pthreads
@@ -49,22 +46,18 @@ various experiments to develop a thorough understanding of the specific coding c
   4. CUDA heat transfer simulation
 <br><br>
 
-**Motion block visulisation**
-
-motion estimation and visuliation algorithm in python3 with cv2 using sqrt(SSD) macro block matching 
+**Motion block visulisation**<br>
+Motion estimation and visuliation algorithm in python3 with cv2 using sqrt(SSD) macro block matching 
 - see github page
 <br><br>
 
-**16-bit CPU design in Verilog**
-
-designed and implemented a 16-bit CPU and python assembler with the following operations :
+**16-bit CPU design in Verilog**<br>
+Designed and implemented a 16-bit CPU and python assembler with the following operations :
 - LD, MOV, ADD, SUB, XOR, LDPC, BRCH, MUL, PUSH, POP, CALL, RET, CP, BREQ, BRLO, BRHI, MUL_MS, BFLY 
 - see github page
 
-**Other**
-
+**Other**<br>
 - **Orderksies Scala functional labs**
-
 - **B-Tree datastructure in c (thread safe)**
 
 
