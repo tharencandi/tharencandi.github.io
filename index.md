@@ -5,19 +5,19 @@ _Computer science graduate based in Sydney. Australian and Italian dual citizen 
 
 I am seeking work within the field of computer science and am focused on maximizing the amount I can learn and
 develop technically and professionally. Systems programming, graphics, ML systems, and embedded systems
-interest me greatly.
-I have completed a 3 years Bachelor's and aim to undertake a master's degree sometime in the future.
+interest me greatly. My goal is to work directly on innovative technologies that postivley impact peoples lives.
 
-Skills:
-- Python3, C, Java, Scala
-- Linux/Debian, bash, Jenkins CI, git
-- Web protocols, REST API's, networking
-- PostgreSQL, sqLite, database programming 
-- Agile development methodologies and project development tools (scrum,
-agile, XP, Jira)
-- OO, functional and imperative programming paradigms.
-- Tensorflow, openCV, numpy, flask
-- CUDA , openMP, pthread, Cache hierarchy, coding for multiple cores.
+I have recently completed my Bachelor's and plan to further my studies in the future.
+
+## Skills
+- **Programming Languages**: Python3, C, Java, Scala
+- **Operating Systems and Tools**: Linux/Debian, bash, Jenkins CI, git
+- **Web Development**: Web protocols, REST API's, networking
+- **Databases**: PostgreSQL, sqLite, database programming 
+- **Development Methodologies and Tools**: Agile, Scrum, XP, Jira, UML
+- **Programming Paradigms**: Object-Oriented, Functional and Imperative programming
+- **Libraries and Frameworks**: Tensorflow, openCV, numpy, flask
+- **Parallel Computing**: CUDA, openMP, pthread, Cache hierarchy, coding for multiple cores
 <br>
 
 [Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/)
@@ -25,46 +25,37 @@ agile, XP, Jira)
 ## 👨‍💻 University Projects
 
 **Undergraduate Capstone Project** <br>
-implementation and training of a DRAN CNN (UNET style architecture) and gigapixel image pipeline  for the bitmasking of glioblastoma cancer cells from TCGA-GBM and TCGA-LG '.svs' datasets.  
-  - Implemented CNN in python (tensorflow) based on research paper specifications
-  - Wrote code for training, tuning and analysing the performance of the CNN
-  - designed and coded gigapixel image pipeline for computing bitmasks for the large dataset of whole slide images
-  - Wrote unit tests
-  - deployed system on university GPU-server
-  - **_Technologies used:_** python3, openCV, numpy, keras, tensorflow, linux, bash, celery[redis], flask
+Implementation and training of a DRAN CNN (UNET style architecture) and gigapixel image pipeline  for the bitmasking of glioblastoma cancer cells from TCGA-GBM and TCGA-LGG '.svs' datasets.
+- Implemented CNN in python (tensorflow) based on research paper specifications
+- Wrote code for training, tuning and analysing the performance of the CNN
+- Designed and coded gigapixel image pipeline for computing bitmasks for the large dataset of whole slide images
+- Wrote unit tests
+- Deployed system on university GPU-server
+- _Technologies used_: python3, openCV, numpy, keras, tensorflow, linux, bash, celery[redis], flask
 <br><br>
 
 **JOS kernel and userspace file system** <br>
-Implemented the JOS kernel (created by MIT) @ EPFL in CS-323. Code covers:
-- Booting (32 bit x86 boot process)
-- Memory management
-- User environments
-- Premptive multitasking
-- File system, spawn and shell
-- **_Skills and Technologies_**: C, assembly, kernel programming, navigating a medium-size C and assembly code base, C, UNIX
-<br><br>
+Implemented the JOS kernel (created by MIT) @ EPFL in CS-323. 
 
-**txt4libnds (personal project)** <br>
-Simple text engine library for libNDS development. 
-- coded a simple system to create and manage 'text objects' for your nintendo ds projects.
+- _Including_: Booting (32 bit x86 boot process), Memory management, User environments, Premptive multitasking, File system, spawn and shell
+- _Technologies used_: C, assembly, kernel programming, navigating a medium-size C and assembly code base, C, UNIX
 <br><br>
 
 **Firmware/ Embedded Software Development: Multiplayer Battleships Clone for the Nintendo DS** <br>
 Designed and Implemented a game on the Nintendo DS entirely in c.
-- Coded using interrupts, WIFI, graphics, and button hardware interfaces (required complete knowledge of NDS hardware design) <br><br>
+- Interrupts, WIFI, graphics, and button hardware interfaces (required complete knowledge of NDS hardware design)
+- _C library for libNDS development_: `txt4libnds` is a simple text-engine libary to create and manage 'text objects' for your nintendo ds projects.
+ <br><br>
 
 ### Other
 - **Multiprocessor (NUMA) and CUDA experiments in c**<br>
-  Various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems.
+  _Various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems._
 - **Motion block visuliation**<br>
   _Motion estimation and visuliation algorithm in python3 with cv2 using sqrt(SSD) macro block matching_
 - **16-bit CPU design in Verilog**<br>
   _Designed and implemented a 16-bit CPU and python assembler with the following 18 operations_<br>
-- **Oderksies Scala functional labs**
+- **Odersky's Scala functional labs**
 - **B-Tree datastructure in c (thread safe)**
-
-
-
 
 <br><br>
 
@@ -111,9 +102,6 @@ For performance of "The End Medly" by The Beatles
 
 ## 👩🏼‍🎓 Education
 
-**14-week Intensive Italian Language and Cultural Immersion Course**  <br>
-[Centro di Lingua e Cultura Italiana per Stranieri](https://scuola-italiano-milano.com/en/) - Milano, Lombardia, Italia _(Mar 2023 - Jun 2023)_ <br>
-
 **Bachelor of Computing (computer science)**<br>
 [The University of Sydney](https://www.sydney.edu.au/) - Sydney, NSW, AUS _(Feb 2020 - Aug 2023)_ <br>
 ***WAM***: 83.4 _(3rd yr 88.8)_
@@ -121,6 +109,10 @@ For performance of "The End Medly" by The Beatles
 **International Exchange Program (computer science)**<br>
 [EPFL (École polytechnique fédérale de Lausanne)](http://www.epfl.ch/) - Lausanne, VD, Switzerland _(Sep 2022 - Feb 2023)_ 
 ***GPA***: 5.6/6
+
+**14-week Intensive Italian Language and Cultural Immersion Course**  <br>
+[Centro di Lingua e Cultura Italiana per Stranieri](https://scuola-italiano-milano.com/en/) - Milano, Lombardia, Italia _(Mar 2023 - Jun 2023)_ <br>
+
 
 **Higher School Certificate**<br>
 [Trinity Grammar School](https://www.trinity.nsw.edu.au/) - Sydney, NSW, AUS _(2019)_ <br>
