@@ -1,4 +1,6 @@
-# 👋
+# CV and Project Showcase
+
+## 👋 Summary
 _Computer science graduate based in Sydney. Australian and Italian dual citizen 🇦🇺🇮🇹_ <br>
 
 I am seeking work within the field of computer science and am focused on maximizing the amount I can learn and
@@ -20,7 +22,7 @@ agile, XP, Jira)
 
 [Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/)
 
-# 👨‍💻 University Projects
+## 👨‍💻 University Projects
 
 **Undergraduate Capstone Project** <br>
 implementation and training of a DRAN CNN (UNET style architecture) and gigapixel image pipeline  for the bitmasking of glioblastoma cancer cells from TCGA-GBM and TCGA-LG '.svs' datasets.  
@@ -45,36 +47,20 @@ Implemented the JOS kernel (created by MIT) @ EPFL in CS-323. Code covers:
 **txt4libnds (personal project)** <br>
 Simple text engine library for libNDS development. 
 - coded a simple system to create and manage 'text objects' for your nintendo ds projects.
-- see github 
 <br><br>
 
 **Firmware/ Embedded Software Development: Multiplayer Battleships Clone for the Nintendo DS** <br>
 Designed and Implemented a game on the Nintendo DS entirely in c.
-- Coded using WIFI, graphics, and button hardware interfaces (required complete knowledge of NDS hardware design)
-- interrupts 
-<br><br>
+- Coded using interrupts, WIFI, graphics, and button hardware interfaces (required complete knowledge of NDS hardware design) <br><br>
 
-**Multiprocessor (NUMA) and CUDA experiments in c**<br>
-Various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems.
-- ***Experiments:***
-  1. heat transfer simulation with openMP
-  2. Monte-Carlo-Intergration with openMP and pthreads
-  3. NUMA memory reordering detection
-  4. CUDA heat transfer simulation
-<br><br>
-
-**Motion block visulisation**<br>
-Motion estimation and visuliation algorithm in python3 with cv2 using sqrt(SSD) macro block matching 
-- see github page
-<br><br>
-
-**16-bit CPU design in Verilog**<br>
-Designed and implemented a 16-bit CPU and python assembler with the following operations :
-- LD, MOV, ADD, SUB, XOR, LDPC, BRCH, MUL, PUSH, POP, CALL, RET, CP, BREQ, BRLO, BRHI, MUL_MS, BFLY 
-- see github page
-
-**Other**<br>
-- **Orderksies Scala functional labs**
+### Other
+- **Multiprocessor (NUMA) and CUDA experiments in c**<br>
+  Various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems.
+- **Motion block visuliation**<br>
+  _Motion estimation and visuliation algorithm in python3 with cv2 using sqrt(SSD) macro block matching_
+- **16-bit CPU design in Verilog**<br>
+  _Designed and implemented a 16-bit CPU and python assembler with the following 18 operations_<br>
+- **Oderksies Scala functional labs**
 - **B-Tree datastructure in c (thread safe)**
 
 
@@ -82,7 +68,7 @@ Designed and implemented a 16-bit CPU and python assembler with the following op
 
 <br><br>
 
-# 🛠️ Work Experience
+## 🛠️ Work Experience
 <img style="padding-top: 7px; padding-right: 10px; float: left;" src="https://media.licdn.com/dms/image/D560BAQEE1puAFu2smw/company-logo_200_200/0/1688961657589?e=1698883200&v=beta&t=w0fo7OISDmjq0RjmRpgmRwHZfGKpBSXbH7mXxfmw3wg" width="50" height="50"/>
 
 **Team Member** @ [Coles](https://www.coles.com.au/) _(Aug 2021 - Aug 2022)_ <br>
@@ -97,7 +83,7 @@ Musician for school play (School of Rock, The Musical) on 🎸 and 🎹 - assist
 
 ***Skills***: _music performance, teaching, communication_
 
-# 🏆 Honours and awards
+## 🏆 Honours and awards
 
 **Vice Chancellor's Global Mobility Scholarship** @ [USYD](https://www.sydney.edu.au/) _(Aug 2022)_ <br>
 University scholarship for high acheiving academics to go on exchange/erasmus.  
@@ -116,14 +102,14 @@ For performance of "The End Medly" by The Beatles
 <br><br>
 
 
-# 💬 Languages
+## 💬 Languages
 
 🇦🇺 **English**: Native <br>
 🇮🇹 **Italian**: Conversational
 <br><br>
 
 
-# 👩🏼‍🎓 Education
+## 👩🏼‍🎓 Education
 
 **14-week Intensive Italian Language and Cultural Immersion Course**  <br>
 [Centro di Lingua e Cultura Italiana per Stranieri](https://scuola-italiano-milano.com/en/) - Milano, Lombardia, Italia _(Mar 2023 - Jun 2023)_ <br>
