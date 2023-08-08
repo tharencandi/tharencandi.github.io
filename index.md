@@ -50,7 +50,7 @@ Designed and Implemented a game on the Nintendo DS entirely in c.
 ### Other
 - **Multiprocessor (NUMA) and CUDA experiments in c**<br>
   _Various experiments to develop a thorough understanding of the specific coding challenges associated with maximising performance on multiprocessor CPU and GPU systems._
-- **Motion block visuliation**<br>
+- **Motion block visulisation**<br>
   _Motion estimation and visuliation algorithm in python3 with cv2 using sqrt(SSD) macro block matching_
 - **16-bit CPU design in Verilog**<br>
   _Designed and implemented a 16-bit CPU and python assembler with the following 18 operations_<br>
