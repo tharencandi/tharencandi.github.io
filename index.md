@@ -1,5 +1,4 @@
-# CV and Project Showcase
-
+#Tharen Candi  - CV and Project Showcase | candi.tharen@gmail.com
 ## 👋 Summary
 _Computer science graduate based in Sydney. Australian and Italian dual citizen 🇦🇺🇮🇹_ <br>
 
@@ -20,7 +19,7 @@ I have recently completed my Bachelor's and plan to further my studies in the fu
 - **Parallel Computing**: CUDA, openMP, pthread, Cache hierarchy, coding for multiple cores
 <br>
 
-[Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/)
+[Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/) / [CV web-version](https://tharencandi.github.io)
 
 ## 👨‍💻 University Projects
 
@@ -75,6 +74,8 @@ Musician for school play (School of Rock, The Musical) on 🎸 and 🎹 - assist
 ***Skills***: _music performance, teaching, communication_
 
 ## 🏆 Honours and awards
+**Dean's List excellence in academic performance**  @ [USYD](https://www.sydney.edu.au/) _(Sep 2023)_ <br>
+Academic excellence within the bachelor of computing.
 
 **Vice Chancellor's Global Mobility Scholarship** @ [USYD](https://www.sydney.edu.au/) _(Aug 2022)_ <br>
 University scholarship for high acheiving academics to go on exchange/erasmus.  
