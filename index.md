@@ -1,43 +1,74 @@
-#Tharen Candi  - CV and Project Showcase | candi.tharen@gmail.com
+# Tharen Candi - CV and Project Showcase
+📍 Padova, Italy | 📧 candi.tharen@gmail.com
+
 ## 👋 Summary
-_Computer science graduate based in Sydney. Australian and Italian dual citizen 🇦🇺🇮🇹_ <br>
+_Master's student in Computer Science (AI Major) based in Padova, Italy. Australian and Italian dual citizen 🇦🇺🇮🇹_ <br>
 
-I am seeking work within the field of computer science and am focused on maximizing the amount I can learn and
-develop technically and professionally. Systems programming, graphics, ML systems, and embedded systems
-interest me greatly. My goal is to work directly on innovative technologies that postivley impact peoples lives.
-
-I have recently completed my Bachelor's and plan to further my studies in the future.
+I am interested in the intersection between AI and Systems. Seeking to complete my thesis project within a company in 2026 and a graduate position for 2027. My focus areas include systems programming, ML systems, embedded systems, and real-time systems. My goal is to work directly on innovative technologies that positively impact people's lives.
 
 ## Skills
-- **Programming Languages**: Python3, C, Java, Scala
-- **Operating Systems and Tools**: Linux/Debian, bash, Jenkins CI, git
-- **Web Development**: Web protocols, REST API's, networking
-- **Databases**: PostgreSQL, sqLite, database programming 
-- **Development Methodologies and Tools**: Agile, Scrum, XP, Jira, UML
+- **Programming Languages**: Python, C/C++, Rust, Ada, Java, Scala
+- **Operating Systems and Tools**: Linux/Debian, bash, Jenkins CI, git, ROS2
+- **Web Development**: Web protocols, REST APIs, networking
+- **Databases**: PostgreSQL, SQL Server, sqLite, database programming 
+- **Development Methodologies and Tools**: Agile, Scrum, XP, Jira, UML, CI/CD, Active Batch
 - **Programming Paradigms**: Object-Oriented, Functional and Imperative programming
-- **Libraries and Frameworks**: Tensorflow, openCV, numpy, flask
-- **Parallel Computing**: CUDA, openMP, pthread, Cache hierarchy, coding for multiple cores
+- **ML & Data**: PyTorch, TensorFlow, OpenCV, NumPy
+- **Systems Programming**: Kernel Development, RTIC, Ravenscar, embedded systems
+- **Parallel Computing**: CUDA, OpenMP, pthreads, cache hierarchy, coding for multiple cores
+- **Real-Time Systems**: Ada Ravenscar, Rust RTIC, ARM Cortex-M4, MAST, WCET analysis
+- **DevOps & Automation**: Git, CI/CD pipelines, ETL processes, automated testing
+- **Languages**: English (Native), Italian (B2)
 <br>
 
 [Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/) / [CV web-version](https://tharencandi.github.io)
 
-## 👨‍💻 University Projects
+## 🎓 Education
 
-**Undergraduate Capstone Project** <br>
-Implementation and training of a DRAN CNN (UNET style architecture) and gigapixel image pipeline  for the bitmasking of glioblastoma cancer cells from TCGA-GBM and TCGA-LGG '.svs' datasets.
-- Implemented CNN in python (tensorflow) based on research paper specifications
-- Wrote code for training, tuning and analysing the performance of the CNN
-- Designed and coded gigapixel image pipeline for computing bitmasks for the large dataset of whole slide images
-- Wrote unit tests
-- Deployed system on university GPU-server
-- _Technologies used_: python3, openCV, numpy, keras, tensorflow, linux, bash, celery[redis], flask
+**MSc Computer Science (AI Major)** @ [University of Padova](https://www.unipd.it/) _(Oct 2024 - Present)_ <br>
+GPA: 27.88/30
+
+**BComp (Computer Science)** @ [University of Sydney](https://www.sydney.edu.au/) _(Feb 2020 - Aug 2023)_ <br>
+WAM: 82.2 (Distinction)
+
+**Exchange Program (Computer Science)** @ [EPFL](https://www.epfl.ch/) _(Sep 2022 - Feb 2023)_ <br>
+GPA: 5.6/6.0
+
+**14-week Intensive Italian Language and Cultural Immersion Course** @ [Centro di Lingua e Cultura Italiana per Stranieri](https://scuola-italiano-milano.com/en/) _(Mar 2023 - Jun 2023)_ <br>
+Milano, Lombardia, Italia
+
+**Higher School Certificate** @ [Trinity Grammar School](https://www.trinity.nsw.edu.au/) _(2019)_ <br>
+ATAR: 97.65 <br>
+***Subjects***: Software Design and Development (SDD), Information Processes and Technology (IPT), English Extension 1 (3U), Adv Mathematics (2U), Adv English, Physics <br>
+***Activities***: Sabre Fencing vice captain, Tech club, Makers club
+
+## 👨‍💻 Projects
+
+**Hard Real-Time Systems: Ada Ravenscar vs. Rust RTIC** <br>
+_Masters Exam Project (Jan 2026 - Feb 2026)_
+- Conducted a comparative evaluation of Ada Ravenscar and Rust RTIC for hard real-time systems on ARM Cortex-M4
+- Utilised the MAST suite for schedulability analysis and profiled Worst-Case Execution Time (WCET)
+- _Technologies used_: Ada, Rust, RTIC, Ravenscar, ARM Cortex-M4, MAST
 <br><br>
 
-**JOS kernel and userspace file system** <br>
-Implemented the JOS kernel (created by MIT) @ EPFL in CS-323. 
+**Efficacy of Multi-lingual Transfer-Learning Approaches for Italian Sign Language (LIS)** <br>
+_Research (Feb 2026 - Present)_
+- Evaluation of embedding models for LIS-ISLR including zero, few-shot, and fine-tuning on the SignIT Dataset
+- _Technologies used_: PyTorch, Python
+<br><br>
 
-- _Including_: Booting (32 bit x86 boot process), Memory management, User environments, Premptive multitasking, File system, spawn and shell
-- _Technologies used_: C, assembly, kernel programming, navigating a medium-size C and assembly code base, C, UNIX
+**Glioblastoma Cell Segmentation Pipeline** <br>
+_Undergraduate Capstone Project (Feb 2023 - Aug 2023)_
+- Engineered and deployed an automated deep learning pipeline for segmentation of gigapixel whole slide images
+- Trained a DRAN CNN (UNET) in TensorFlow, and developed pipeline using OpenCV, Celery, and Redis
+- _Technologies used_: Python, TensorFlow, OpenCV, NumPy, Keras, Celery, Redis, Flask, Linux
+<br><br>
+
+**JOS Operating System Kernel Implementation** <br>
+_Undergraduate Coursework @ EPFL (Sep 2022 - Feb 2023)_
+- Built a 32-bit x86 kernel including boot process, VM management, scheduling, file system, and shell using C and Assembly
+- _Including_: Booting (32 bit x86 boot process), Memory management, User environments, Preemptive multitasking, File system, spawn and shell
+- _Technologies used_: C, Assembly, kernel programming, x86 architecture
 <br><br>
 
 **Firmware/ Embedded Software Development: Multiplayer Battleships Clone for the Nintendo DS** <br>
@@ -59,64 +90,59 @@ Designed and Implemented a game on the Nintendo DS entirely in c.
 <br><br>
 
 ## 🛠️ Work Experience
-<img style="padding-top: 7px; padding-right: 10px; float: left;" src="https://media.licdn.com/dms/image/D560BAQEE1puAFu2smw/company-logo_200_200/0/1688961657589?e=1698883200&v=beta&t=w0fo7OISDmjq0RjmRpgmRwHZfGKpBSXbH7mXxfmw3wg" width="50" height="50"/>
 
-**Team Member** @ [Coles](https://www.coles.com.au/) _(Aug 2021 - Aug 2022)_ <br>
-Online department shift leader. Responsible for collecting and managing online orders for pickup and delivery.
+**Graduate Intern - Carbon Trading and Origination** @ [Glencore](https://www.glencore.com/) _(Jul 2024 - Sep 2024)_ <br>
+- Developed ETL data pipelines and automated processes for supply and demand forecasting (Python, SQL Server, and Active Batch). Reduced a 5-hour manual process to a fully automated system
+- Conducted market modelling and analysis within the carbon trading sector in Excel
+- Created technical and end-user documentation for internal tools and processes
 
-***Skills***: _customer service, interpersonal communication, manual labor, time management_
+***Skills***: _Python, SQL Server, Active Batch, ETL, data analysis, Excel, technical documentation_
+<br><br>
 
-<img style="padding-top: 7px; padding-right: 10px; float: left;" src="https://media.licdn.com/dms/image/C560BAQHgP4KGoe3YCg/company-logo_200_200/0/1519889072713?e=1698883200&v=beta&t=o9RvN1zLkcTWGL25TyjJ4PqETRB8CN5nz5-4sffZvtw" width="50" height="50"/>
+**Private Tutor** @ Self-employed _(Feb 2021 - Jul 2024)_ <br>
+- Tutored university students in OOP and systems programming using C, Java, and Python
+
+***Skills***: _teaching, C, Java, Python, OOP, systems programming, communication_
+<br><br>
+
+**Online Department Shift Leader** @ [Coles](https://www.coles.com.au/) _(Aug 2021 - Aug 2022)_ <br>
+- Managed online orders for pickup and delivery, overseeing time-sensitive logistics, customer service, and manual labour
+
+***Skills***: _customer service, interpersonal communication, logistics, time management_
+<br><br>
 
 **Musical Staff** @ [Trinity Grammar School](https://www.trinity.nsw.edu.au/) _(Dec 2019 - Mar 2020)_ <br>
-Musician for school play (School of Rock, The Musical) on 🎸 and 🎹 - assisted in teaching students learn intruments for their on stage roles.
+Musician for school play (School of Rock, The Musical) on 🎸 and 🎹 - assisted in teaching students learn instruments for their on stage roles.
 
 ***Skills***: _music performance, teaching, communication_
+<br><br>
 
-## 🏆 Honours and awards
-**Dean's List excellence in academic performance**  @ [USYD](https://www.sydney.edu.au/) _(Sep 2023)_ <br>
+## 🏆 Honours and Awards
+
+**Masters Study Grant** by [Italian Ministry of Foreign Affairs](https://www.esteri.it/) _(2024, 2025)_ <br>
+Study grant for Master's degree program in Italy.
+
+**Dean's List excellence in academic performance** @ [USYD](https://www.sydney.edu.au/) _(2023)_ <br>
 Academic excellence within the bachelor of computing.
 
-**Vice Chancellor's Global Mobility Scholarship** @ [USYD](https://www.sydney.edu.au/) _(Aug 2022)_ <br>
-University scholarship for high acheiving academics to go on exchange/erasmus.  
+**Vice Chancellor's Global Mobility Scholarship** @ [USYD](https://www.sydney.edu.au/) _(2022)_ <br>
+University scholarship for high achieving academics to go on exchange/erasmus.  
 
-**HSC top achiever in Information Processes and Technology** issued by [NESA](https://dev.to/) _(2019)_ <br>
-Top Achievers in Course lists the student(s) who achieved one of the highest places in an HSC course or VET exam and also achieved a result in the highest band possible (Band 6 or Band E4).
+**HSC top achiever in Information Processes and Technology** by [NESA](https://educationstandards.nsw.edu.au/) _(2019)_ <br>
+6th in State. Top Achievers in Course lists the student(s) who achieved one of the highest places in an HSC course or VET exam and also achieved a result in the highest band possible (Band 6 or Band E4).
 
 **6x recipient of rank 1 prize for HSC subjects (yr 11 & 12)** @ [Trinity Grammar School](https://www.trinity.nsw.edu.au/) _(2018 - 2019)_ 
 - ***English Adv prize***: 2018, 2019
 - ***Software Design and Development prize***: 2018, 2019
-- ***Information Processes and Technology***: 2018, 2019
+- ***Information Processes and Technology prize***: 2018, 2019
 <br><br>
 
-**Battle of the Bands winner** @ [Trinity Grammar School](https://www.trinity.nsw.edu.au/) _(2019)_<br>
-For performance of "The End Medly" by The Beatles
+**Battle of the Bands winner** @ [Trinity Grammar School](https://www.trinity.nsw.edu.au/) _(2019)_ <br>
+For performance of "The End Medley" by The Beatles
 <br><br>
 
 
 ## 💬 Languages
 
 🇦🇺 **English**: Native <br>
-🇮🇹 **Italian**: Conversational
-<br><br>
-
-
-## 👩🏼‍🎓 Education
-
-**Bachelor of Computing (computer science)**<br>
-[The University of Sydney](https://www.sydney.edu.au/) - Sydney, NSW, AUS _(Feb 2020 - Aug 2023)_ <br>
-***WAM***: 83.4 _(3rd yr 88.8)_
-
-**International Exchange Program (computer science)**<br>
-[EPFL (École polytechnique fédérale de Lausanne)](http://www.epfl.ch/) - Lausanne, VD, Switzerland _(Sep 2022 - Feb 2023)_ 
-***GPA***: 5.6/6
-
-**14-week Intensive Italian Language and Cultural Immersion Course**  <br>
-[Centro di Lingua e Cultura Italiana per Stranieri](https://scuola-italiano-milano.com/en/) - Milano, Lombardia, Italia _(Mar 2023 - Jun 2023)_ <br>
-
-
-**Higher School Certificate**<br>
-[Trinity Grammar School](https://www.trinity.nsw.edu.au/) - Sydney, NSW, AUS _(2019)_ <br>
-***ATAR***: 97.65 <br>
-***Subjects***: _Software Design and Development (SDD), Information Processes and Technology (IPT), English extension 1 (3U) , Adv Mathematics (2U), Adv English, Physics_ <br>
-***Activities***: Sabre Fencing vice captain, Tech club, Makers club
+🇮🇹 **Italian**: B2 (Upper-Intermediate)
