@@ -1,6 +1,11 @@
 # Tharen Candi - CV and Project Showcase
 📍 Padova, Italy | 📧 candi.tharen@gmail.com
 
+## 🔗 Featured Links
+
+- [Hard Real-Time Systems Analysis (RTIC, Ravenscar, MAST)](https://tharencandi.net/rtic-ravenscar-mast-analysis/)
+- [NLP & AI Notes (UniPD)](https://tharencandi.net/nlp-unipd-notes/)
+
 ## 👋 Summary
 _Master's student in Computer Science (AI Major) based in Padova, Italy. Australian and Italian dual citizen 🇦🇺🇮🇹_ <br>
 
