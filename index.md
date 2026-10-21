@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="headshot.png" alt="Tharen Candi" width="160" style="border-radius: 50%;">
+</p>
+
 # Tharen Candi - CV and Project Showcase
 📍 Padova, Italy | 📧 candi.tharen@gmail.com
 
