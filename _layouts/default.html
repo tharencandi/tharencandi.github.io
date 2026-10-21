@@ -21,7 +21,7 @@
           <p class="profile-tagline">{{ site.tagline }}</p>
           <p class="profile-location">{{ site.location }}</p>
           <p class="contact">
-            {% for link in site.contact %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+            {% for link in site.contact %}<a href="{{ link.url | relative_url }}">{{ link.label }}</a>{% endfor %}
           </p>
         </header>
     </div>
