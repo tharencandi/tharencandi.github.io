@@ -1,0 +1,35 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+  width: auto;
+  max-width: 860px;
+}
+
+header {
+  width: auto;
+  float: none;
+  position: static;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header img {
+  max-width: 160px;
+  border-radius: 50%;
+}
+
+section {
+  width: auto;
+  float: none;
+}
+
+footer {
+  width: auto;
+  float: none;
+  position: static;
+}

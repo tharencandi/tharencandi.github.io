@@ -1,7 +1,10 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 title: Tharen Candi
-description: Master's student in Computer Science (AI Major) @ University of Padova. Bachelor's from USYD with exchange at EPFL. Passionate about the intersection of AI and systems, with interests spanning embedded systems, real-time computing, and ML systems. Background in electronics, graphic design, and music (piano, guitar, production).
-show_downloads: true
+description: MSc Computer Science (AI) @ University of Padova. Working at the intersection of AI and systems, with a focus on TinyML, embedded and real-time systems, and representation learning.
+show_downloads: false
 logo: headshot.png
 
 
+# theme: jekyll-theme-cayman gives a coloured banner header with full-width content below.
+# theme: jekyll-theme-primer is plain and GitHub-like, with no sidebar.
+# theme: jekyll-theme-slate uses a dark header bar.
