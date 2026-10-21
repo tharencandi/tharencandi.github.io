@@ -1,0 +1,32 @@
+{% comment %}
+  Renders one CV entry from a _data file. Fields (all optional except title):
+  title, url, org, org_url, subtitle, date, note, summary, bullets[], tags[], links[{label, url}], image
+{% endcomment %}
+{% assign e = include.entry %}
+<div class="entry{% if e.image %} has-thumb{% endif %}">
+  {% if e.image %}<img class="entry-thumb" src="{{ e.image | relative_url }}" alt="">{% endif %}
+  <div class="entry-body">
+    <div class="entry-head">
+      <div class="entry-title">
+        {% if e.url %}<a href="{{ e.url }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}
+      </div>
+      {% if e.date %}<div class="entry-date">{{ e.date }}</div>{% endif %}
+    </div>
+    {% if e.org or e.subtitle or e.links %}
+    <div class="entry-sub">
+      {% if e.org_url %}<a href="{{ e.org_url }}">{{ e.org }}</a>{% else %}{{ e.org }}{% endif %}{% if e.org and e.subtitle %} · {% endif %}{{ e.subtitle }}
+      {% for l in e.links %}<a class="pill" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+    </div>
+    {% endif %}
+    {% if e.note %}<div class="entry-note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+    {% if e.summary %}<div class="entry-note">{{ e.summary | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+    {% if e.bullets %}
+    <ul>
+      {% for b in e.bullets %}<li>{{ b | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if e.tags %}
+    <div class="tags">{% for t in e.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+    {% endif %}
+  </div>
+</div>
