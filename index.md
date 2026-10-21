@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Tharen Candi  # explicit, so GitHub Pages does not use the first heading
 image:
   path: /assets/img/share.jpg
   width: 1200
