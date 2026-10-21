@@ -1,16 +1,15 @@
-<p align="center">
-  <img src="headshot.png" alt="Tharen Candi" width="160" style="border-radius: 50%;">
-</p>
-
-# Tharen Candi - CV and Project Showcase
-📍 Padova, Italy | 📧 candi.tharen@gmail.com
-
-<p class="contact">
-  <a href="mailto:candi.tharen@gmail.com">Email</a>
-  <a href="https://www.linkedin.com/in/tharen-candi-191620214/">LinkedIn</a>
-  <a href="https://github.com/tharencandi/">GitHub</a>
-  <a href="https://tharencandi.github.io">CV web-version</a>
-</p>
+<div class="profile">
+  <img src="headshot.png" alt="Tharen Candi">
+  <h1>Tharen Candi</h1>
+  <p class="tagline">MSc Computer Science (AI) @ University of Padova<br>AI and systems: TinyML, embedded and real-time systems, representation learning</p>
+  <p class="location">📍 Padova, Italy</p>
+  <p class="contact">
+    <a href="mailto:candi.tharen@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/tharen-candi-191620214/">LinkedIn</a>
+    <a href="https://github.com/tharencandi/">GitHub</a>
+    <a href="https://tharencandi.github.io">CV web-version</a>
+  </p>
+</div>
 
 ## 🔗 Featured Links
 - [The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on LIS](https://tharencandi.net/signclip-lis-experiments/)

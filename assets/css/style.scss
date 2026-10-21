@@ -3,39 +3,53 @@
 
 @import "{{ site.theme }}";
 
-.wrapper {
-  width: auto;
-  max-width: 860px;
+/* Wider content column (theme default is 640px) */
+.inner {
+  max-width: 900px;
+  padding: 20px 24px;
 }
 
-header {
-  width: auto;
-  float: none;
-  position: static;
+/* The profile block below replaces the theme's dark title bar */
+#header_wrap {
+  display: none;
+}
+
+/* Profile block */
+.profile {
   text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 24px 0 28px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
 }
 
-header img {
-  max-width: 160px;
+.profile img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 
-section {
-  width: auto;
-  float: none;
+.profile h1 {
+  margin: 14px 0 4px;
+  font-size: 40px;
 }
 
-footer {
-  width: auto;
-  float: none;
-  position: static;
+.profile .tagline {
+  margin: 0;
+  color: #555;
+  font-size: 17px;
 }
+
+.profile .location {
+  margin: 6px 0 0;
+  color: #777;
+  font-size: 15px;
+}
+
 /* Contact links as small buttons */
 .contact {
-  text-align: center;
+  margin-top: 14px;
 }
 
 .contact a {
@@ -45,6 +59,20 @@ footer {
   border: 1px solid #ccc;
   border-radius: 999px;
   text-decoration: none;
+}
+
+.contact a:hover {
+  background: #e8e8e8;
+}
+
+/* Calmer heading sizes */
+section h2 {
+  margin-top: 36px;
+  font-size: 26px;
+}
+
+section h3 {
+  font-size: 20px;
 }
 
 /* GitHub links on projects as pills */
@@ -59,10 +87,14 @@ a.gh {
 
 /* Space between entries (replaces <br><br>) */
 section p:has(> strong:first-child) {
-  margin-top: 1.8em;
+  margin-top: 1.3em;
 }
 
 section h2 + p,
 section h3 + p {
   margin-top: 0;
+}
+
+#main_content_wrap {
+  border-top: none;
 }
