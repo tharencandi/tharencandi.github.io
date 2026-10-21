@@ -1,5 +1,10 @@
 ---
 layout: default
+image:
+  path: /assets/img/share.jpg
+  width: 1200
+  height: 630
+  alt: Tharen Candi, MSc Computer Science (AI), University of Padova
 ---
 
 ## Featured Links
