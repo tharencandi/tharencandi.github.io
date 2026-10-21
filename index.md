@@ -5,7 +5,12 @@
 # Tharen Candi - CV and Project Showcase
 📍 Padova, Italy | 📧 candi.tharen@gmail.com
 
-[Email](mailto:candi.tharen@gmail.com) / [LinkedIn](https://www.linkedin.com/in/tharen-candi-191620214/) / [GitHub](https://github.com/tharencandi/) / [CV web-version](https://tharencandi.github.io)
+<p class="contact">
+  <a href="mailto:candi.tharen@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/tharen-candi-191620214/">LinkedIn</a>
+  <a href="https://github.com/tharencandi/">GitHub</a>
+  <a href="https://tharencandi.github.io">CV web-version</a>
+</p>
 
 ## 🔗 Featured Links
 - [The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on LIS](https://tharencandi.net/signclip-lis-experiments/)
@@ -68,23 +73,20 @@ _MSc Thesis, Machine Intelligence Group (IAS-Lab), University of Padova (2026 - 
 - Training and developing Tiny Vision models
 - Targeting a live on-device segmentation demo
 - _Technologies used_: Rust, C, RIOT OS, ESP32-S3, MicroFlow, TinyML
-<br><br>
 
 **Universal Sign Language Representations for ISLR** <br>
 _Independent Research (2026 - Present)_
 - Exploring multilingual, language-universal sign representations, motivated by the cross-lingual transfer limits I found in SignCLIP
 - Developing a pose-based architecture that learns language-gated sign embeddings by predicting into a frozen text-embedding space, so representations carry semantic meaning across sign languages
 - _Technologies used_: Python, PyTorch, MediaPipe
-<br><br>
 
-**[The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on Italian Sign Language (LIS)](https://tharencandi.net/signclip-lis-experiments/)** · [GitHub](https://github.com/tharencandi/signclip-lis-experiments) <br>
+**[The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on Italian Sign Language (LIS)](https://tharencandi.net/signclip-lis-experiments/)** [GitHub](https://github.com/tharencandi/signclip-lis-experiments){: .gh} <br>
 _Research (Feb 2026 - Present)_
 - First study of SignCLIP's multilingual transfer to LIS across zero-shot, few-shot and fine-tuning, on the A3LIS-147 and SignIT datasets
 - Showed that aligning many sign languages to one English text space causes negative zero-shot transfer: it helps iconic signs and hurts non-iconic ones
 - Ran a fine-tuning ablation over six contrastive objectives (InfoNCE, SupCon, GlobalNCE, DHN-NCE, ProLIP, cross-entropy). GlobalNCE raised zero-shot R@1 from 3.7% to 76.2%, and its linear probe (80.2%) matches the previous state of the art on A3LIS-147
 - On SignIT, outperformed all of the original authors' non-video baselines using pose keypoints only
 - _Technologies used_: Python, PyTorch, fairseq, MediaPipe Holistic, scikit-learn
-<br><br>
 
 **Automatic Extraction of Anatomical Landmarks of Pinna Shape** <br>
 _Huawei Munich Tech Arena 2026 · Team GoMuDada (Aug 2026 - Sep 2026)_
@@ -93,7 +95,6 @@ _Huawei Munich Tech Arena 2026 · Team GoMuDada (Aug 2026 - Sep 2026)_
 - Completed dense ear contours with a statistical shape model guiding geodesic paths on the mesh, then a graph-attention refiner, reaching ~1.2 mm mean error
 - Generated synthetic training ears via PCA shape sampling and RBF mesh warping, cutting anchor error by 4%
 - _Technologies used_: Python, PyTorch, NumPy, SciPy, scikit-learn, trimesh, point-cloud deep learning
-<br><br>
 
 **Multimodal Speech Emotion Recognition on RAVDESS** <br>
 _Master's Course Project, Speech Processing (2026)_
@@ -102,43 +103,37 @@ _Master's Course Project, Speech Processing (2026)_
 - Designed a visual branch on MediaPipe facial blendshapes, using a temporal CNN-GRU with dilated residual blocks
 - Found that LoRA improved audio-only performance but degraded after fusion compared with the frozen probe, showing that the best single-modality model is not always the best one to fuse
 - _Technologies used_: Python, PyTorch, Hugging Face, PEFT/LoRA, MediaPipe
-<br><br>
 
-**[Hard Real-Time Systems: Ada Ravenscar vs. Rust RTIC](https://tharencandi.net/rtic-ravenscar-mast-analysis/)** · [GitHub](https://github.com/tharencandi/rtic-ravenscar-mast-analysis) <br>
+**[Hard Real-Time Systems: Ada Ravenscar vs. Rust RTIC](https://tharencandi.net/rtic-ravenscar-mast-analysis/)** [GitHub](https://github.com/tharencandi/rtic-ravenscar-mast-analysis){: .gh} <br>
 _Master's Exam Project (Jan 2026 - Feb 2026)_
 - Conducted a comparative evaluation of Ada Ravenscar and Rust RTIC for hard real-time systems on ARM Cortex-M4
 - Used the MAST suite for schedulability analysis and profiled worst-case execution time (WCET)
 - _Technologies used_: Ada, Rust, RTIC, Ravenscar, ARM Cortex-M4, MAST
-<br><br>
 
 **Intelligent Robotics with ROS 2** <br>
 _Master's Course Project, Intelligent Robotics (group work)_
-- **UR5 Cube Swap** · [GitHub](https://github.com/dawit-andargachew/ros2-ur5-vision-based-cube-swap): a simulated UR5 arm locates two cubes with AprilTags and swaps them between tables, orchestrated by a BehaviorTree with automatic retries
-- **Autonomous Navigation Between AprilTags** · [GitHub](https://github.com/dawit-andargachew/ros2-nav2-apriltag-navigation): a mobile robot computes a goal from two AprilTags, drives there with Nav2, then detects cylindrical tables with lidar
+- **UR5 Cube Swap** [GitHub](https://github.com/dawit-andargachew/ros2-ur5-vision-based-cube-swap){: .gh}: a simulated UR5 arm locates two cubes with AprilTags and swaps them between tables, orchestrated by a BehaviorTree with automatic retries
+- **Autonomous Navigation Between AprilTags** [GitHub](https://github.com/dawit-andargachew/ros2-nav2-apriltag-navigation){: .gh}: a mobile robot computes a goal from two AprilTags, drives there with Nav2, then detects cylindrical tables with lidar
 - _Technologies used_: C++, ROS 2, MoveIt 2, Nav2, BehaviorTree.CPP, AprilTag
-<br><br>
 
 ### Undergraduate
 
-**Glioblastoma Cell Segmentation Pipeline** · [GitHub](https://github.com/tharencandi/undergrad_capstone) <br>
+**Glioblastoma Cell Segmentation Pipeline** [GitHub](https://github.com/tharencandi/undergrad_capstone){: .gh} <br>
 _Undergraduate Capstone Project (Feb 2023 - Aug 2023)_
 - Engineered and deployed an automated deep learning pipeline for segmentation of gigapixel whole-slide images
 - Trained a DRAN CNN (U-Net) in TensorFlow, and built the pipeline with OpenCV, Celery and Redis
 - _Technologies used_: Python, TensorFlow, Keras, OpenCV, NumPy, Celery, Redis, Flask, Linux
-<br><br>
 
 **JOS Operating System Kernel** <br>
 _Undergraduate Coursework @ EPFL (Sep 2022 - Feb 2023)_
 - Built a 32-bit x86 kernel in C and Assembly: boot process, memory management, user environments, preemptive multitasking, file system, spawn and shell
 - _Technologies used_: C, Assembly, x86, kernel programming
-<br><br>
 
 **Multiplayer Battleships for the Nintendo DS** <br>
 _Embedded Software Project_
 - Designed and implemented a multiplayer game entirely in C, working directly with the NDS hardware: interrupts, Wi-Fi, graphics and button input
 - Wrote `txt4libnds`, a small text-engine library for creating and managing text objects in libnds projects
 - _Technologies used_: C, libnds, embedded programming
-<br><br>
 
 ### Other
 - **Multiprocessor (NUMA) and CUDA experiments in C**<br>
@@ -159,21 +154,17 @@ _Embedded Software Project_
 - Wrote technical and end-user documentation for internal tools and processes
 
 ***Skills***: _Python, SQL Server, ActiveBatch, ETL, data analysis, Excel, technical documentation_
-<br><br>
 
 **Private Tutor** @ Self-employed _(Feb 2021 - Jul 2024)_ <br>
 - Tutored university students in OOP and systems programming using C, Java and Python
 
 ***Skills***: _teaching, C, Java, Python, OOP, systems programming, communication_
-<br><br>
 
 **Online Department Shift Leader** @ [Coles](https://www.coles.com.au/) _(Aug 2021 - Aug 2022)_ <br>
 - Led online order fulfilment for pickup and delivery, managing time-sensitive logistics and customer service
-<br><br>
 
 **Musical Staff** @ [Trinity Grammar School](https://www.trinity.nsw.edu.au/) _(Dec 2019 - Mar 2020)_ <br>
 - Played 🎸 and 🎹 in the school production of _School of Rock: The Musical_ and helped students learn their instruments for their on-stage roles
-<br><br>
 
 ## 🏆 Honours and Awards
 

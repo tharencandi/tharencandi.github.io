@@ -33,3 +33,36 @@ footer {
   float: none;
   position: static;
 }
+/* Contact links as small buttons */
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  display: inline-block;
+  margin: 4px;
+  padding: 4px 14px;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+/* GitHub links on projects as pills */
+a.gh {
+  padding: 1px 8px;
+  font-size: 0.8em;
+  border-radius: 999px;
+  background: #24292f;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Space between entries (replaces <br><br>) */
+section p:has(> strong:first-child) {
+  margin-top: 1.8em;
+}
+
+section h2 + p,
+section h3 + p {
+  margin-top: 0;
+}
