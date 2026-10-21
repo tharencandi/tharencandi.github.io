@@ -1,0 +1,42 @@
+# Rebuilds cv/Tharen_Candi_CV.pdf from cv/cv.typ whenever the Typst source
+# changes on main, and commits the PDF back so GitHub Pages serves it.
+name: Build CV
+
+on:
+  push:
+    branches: [main]
+    paths: [cv/cv.typ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-cv
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: 0.15.1
+          cache-dependency-path: cv/cv.typ
+
+      - name: Compile CV
+        run: typst compile cv/cv.typ cv/Tharen_Candi_CV.pdf
+
+      - name: Commit PDF if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cv/Tharen_Candi_CV.pdf
+          if git diff --cached --quiet; then
+            echo "PDF unchanged"
+          else
+            git commit -m "Rebuild CV PDF from cv.typ"
+            git push
+          fi
