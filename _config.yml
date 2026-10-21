@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title: Tharen Candi
-description: MSc Computer Science (AI) @ University of Padova. Working at the intersection of AI and systems, with a focus on TinyML, embedded and real-time systems, and representation learning.
+url: https://tharencandi.net
+description: "MSc Computer Science (AI) student at the University of Padova, working on AI and systems: TinyML, embedded systems and computer vision. CV, research and projects."
 show_downloads: false
 logo: headshot.png
 
@@ -11,7 +12,7 @@ contact:
   - label: Email
     url: mailto:candi.tharen@gmail.com
   - label: LinkedIn
-    url: https://www.linkedin.com/in/tharen-candi-191620214/
+    url: https://www.linkedin.com/in/tharencandi/
   - label: GitHub
     url: https://github.com/tharencandi/
   - label: Download CV
