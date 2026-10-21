@@ -4,7 +4,18 @@ description: MSc Computer Science (AI) @ University of Padova. Working at the in
 show_downloads: false
 logo: headshot.png
 
+# Profile header (used by _layouts/default.html)
+tagline: MSc Computer Science (AI) @ University of Padova · AI and systems
+location: Padova, Italy
+contact:
+  - label: Email
+    url: mailto:candi.tharen@gmail.com
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/tharen-candi-191620214/
+  - label: GitHub
+    url: https://github.com/tharencandi/
+  - label: CV web-version
+    url: https://tharencandi.github.io
 
-# theme: jekyll-theme-cayman gives a coloured banner header with full-width content below.
-# theme: jekyll-theme-primer is plain and GitHub-like, with no sidebar.
-# theme: jekyll-theme-slate uses a dark header bar.
+# Page content lives in index.md; CV entries live in _data/*.yml and are
+# rendered by _includes/entry.html.

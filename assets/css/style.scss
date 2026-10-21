@@ -3,66 +3,224 @@
 
 @import "{{ site.theme }}";
 
-.wrapper {
-  width: auto;
-  max-width: 860px;
+$muted: #666;
+$border: #ddd;
+
+/* Content column: wider than the theme's 640px, short enough to read */
+.inner {
+  max-width: 800px;
+  padding: 20px 24px;
 }
 
-header {
-  width: auto;
-  float: none;
-  position: static;
+#main_content_wrap {
+  border-top: none;
+}
+
+/* ---------- Profile header (see _layouts/default.html) ---------- */
+#header_wrap .inner.profile {
+  padding: 44px 24px 36px;
   text-align: center;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #e5e5e5;
 }
 
-header img {
-  max-width: 160px;
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
   border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
-section {
-  width: auto;
-  float: none;
-}
-
-footer {
-  width: auto;
-  float: none;
-  position: static;
-}
-/* Contact links as small buttons */
-.contact {
+#header_wrap #project_title {
+  margin-top: 16px;
+  font-size: 40px;
   text-align: center;
+}
+
+.profile-tagline {
+  margin: 6px 0 0;
+  color: #ddd;
+  font-size: 17px;
+}
+
+.profile-location {
+  margin: 2px 0 0;
+  color: #aaa;
+  font-size: 15px;
+}
+
+.contact {
+  margin: 18px 0 0;
 }
 
 .contact a {
   display: inline-block;
   margin: 4px;
-  padding: 4px 14px;
-  border: 1px solid #ccc;
+  padding: 5px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 999px;
+  color: #fff;
   text-decoration: none;
+  transition: background 0.15s;
 }
 
-/* GitHub links on projects as pills */
-a.gh {
-  padding: 1px 8px;
-  font-size: 0.8em;
+.contact a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ---------- Headings ---------- */
+section h2 {
+  margin: 40px 0 8px;
+  font-size: 26px;
+}
+
+section h2:first-child {
+  margin-top: 8px;
+}
+
+section h3 {
+  margin: 24px 0 4px;
+  font-size: 19px;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ---------- CV entries (see _includes/entry.html) ---------- */
+.entry {
+  padding: 14px 0;
+}
+
+.entry + .entry {
+  border-top: 1px solid #e6e6e6;
+}
+
+.entry.has-thumb {
+  display: flex;
+  gap: 16px;
+}
+
+.entry-thumb {
+  flex: 0 0 120px;
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.entry-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.entry-title {
+  font-weight: 700;
+  color: #222;
+}
+
+.entry-date {
+  flex-shrink: 0;
+  color: $muted;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.entry-sub {
+  color: $muted;
+}
+
+.entry-note {
+  margin-top: 2px;
+}
+
+.entry ul {
+  margin: 6px 0 0;
+}
+
+.entry li {
+  margin: 2px 0;
+}
+
+/* Other projects: tighter, no dividers */
+.compact .entry {
+  padding: 6px 0;
+  border-top: none;
+}
+
+/* ---------- Pills and tags ---------- */
+a.pill {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 9px;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+  vertical-align: 2px;
   border-radius: 999px;
   background: #24292f;
   color: #fff;
   text-decoration: none;
 }
 
-/* Space between entries (replaces <br><br>) */
-section p:has(> strong:first-child) {
-  margin-top: 1.8em;
+a.pill:hover {
+  background: #444c56;
 }
 
-section h2 + p,
-section h3 + p {
-  margin-top: 0;
+.tags {
+  margin-top: 8px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 4px 4px 0;
+  padding: 1px 8px;
+  font-size: 12.5px;
+  border: 1px solid $border;
+  border-radius: 4px;
+  background: #fff;
+  color: #555;
+}
+
+/* ---------- Skills: label column + values ---------- */
+ul.skills {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul.skills li {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  margin: 3px 0;
+}
+
+/* ---------- Footer ---------- */
+#footer_wrap .inner {
+  padding: 16px 24px;
+  font-size: 14px;
+}
+
+/* ---------- Small screens ---------- */
+@media screen and (max-width: 600px) {
+  .entry-head {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  ul.skills li {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .entry.has-thumb {
+    flex-direction: column;
+  }
 }

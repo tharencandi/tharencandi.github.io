@@ -1,0 +1,30 @@
+- title: Graduate Intern – Carbon Trading and Origination
+  org: Glencore
+  org_url: https://www.glencore.com/
+  date: Jul 2024 – Sep 2024
+  bullets:
+    - Developed ETL data pipelines and automated processes for supply and demand forecasting (Python, SQL Server, ActiveBatch), turning a 5-hour manual process into a fully automated system
+    - Conducted market modelling and analysis in the carbon trading sector in Excel
+    - Wrote technical and end-user documentation for internal tools and processes
+  tags: [Python, SQL Server, ActiveBatch, ETL, Data analysis, Excel, Technical documentation]
+
+- title: Private Tutor
+  org: Self-employed
+  date: Feb 2021 – Jul 2024
+  bullets:
+    - Tutored university students in OOP and systems programming using C, Java and Python
+  tags: [Teaching, C, Java, Python, OOP, Systems programming, Communication]
+
+- title: Online Department Shift Leader
+  org: Coles
+  org_url: https://www.coles.com.au/
+  date: Aug 2021 – Aug 2022
+  bullets:
+    - Led online order fulfilment for pickup and delivery, managing time-sensitive logistics and customer service
+
+- title: Musical Staff
+  org: Trinity Grammar School
+  org_url: https://www.trinity.nsw.edu.au/
+  date: Dec 2019 – Mar 2020
+  bullets:
+    - "Played guitar and keyboard in the school production of *School of Rock: The Musical* and helped students learn their instruments for their on-stage roles"
