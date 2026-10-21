@@ -4,25 +4,33 @@
 #let name = "Tharen Candi"
 #let location = "Padova, Italy"
 #let email = "candi.tharen@gmail.com"
-#let github = "github.com/tharencandi"
-#let linkedin = "linkedin.com/in/tharen-candi-191620214/"
-#let personal-site = "tharencandi.net"
+#let github = "https://github.com/tharencandi"
+#let linkedin = "https://www.linkedin.com/in/tharencandi/"
+#let personal-site = "https://tharencandi.net"
 #let phone = "+39 3761273583"
 
+// Contact details are written out below rather than passed to the template,
+// so links show a short label instead of the full URL. The negative pad
+// takes up the space of the template's (now empty) contact line.
 #show: resume.with(
   author: name,
-  location: location,
-  email: email,
-  github: github,
-  linkedin: linkedin,
-  personal-site: personal-site,
-  phone: phone,
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
 )
+
+#pad(top: -1.2em)[
+  #(
+    phone,
+    location,
+    link("mailto:" + email)[#email],
+    link(github)[GitHub],
+    link(linkedin)[LinkedIn],
+    link(personal-site)[Website],
+  ).join("  |  ")
+]
 
 Italian/Australian dual citizen. MSc Computer Science (AI) student working at the intersection of AI and systems: TinyML, embedded systems, computer vision, representation learning. Graduating April 2027, and seeking a graduate role.
 
