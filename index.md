@@ -73,7 +73,7 @@ _Independent Research (2026 - Present)_
 - _Technologies used_: Python, PyTorch, MediaPipe
 <br><br>
 
-**[The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on Italian Sign Language (LIS)](https://tharencandi.net/signclip-lis-experiments/)** <br>
+**[The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on Italian Sign Language (LIS)](https://tharencandi.net/signclip-lis-experiments/)** · [GitHub](https://github.com/tharencandi/signclip-lis-experiments) <br>
 _Research (Feb 2026 - Present)_
 - First study of SignCLIP's multilingual transfer to LIS across zero-shot, few-shot and fine-tuning, on the A3LIS-147 and SignIT datasets
 - Showed that aligning many sign languages to one English text space causes negative zero-shot transfer: it helps iconic signs and hurts non-iconic ones
@@ -100,16 +100,23 @@ _Master's Course Project, Speech Processing (2026)_
 - _Technologies used_: Python, PyTorch, Hugging Face, PEFT/LoRA, MediaPipe
 <br><br>
 
-**[Hard Real-Time Systems: Ada Ravenscar vs. Rust RTIC](https://tharencandi.net/rtic-ravenscar-mast-analysis/)** <br>
+**[Hard Real-Time Systems: Ada Ravenscar vs. Rust RTIC](https://tharencandi.net/rtic-ravenscar-mast-analysis/)** · [GitHub](https://github.com/tharencandi/rtic-ravenscar-mast-analysis) <br>
 _Master's Exam Project (Jan 2026 - Feb 2026)_
 - Conducted a comparative evaluation of Ada Ravenscar and Rust RTIC for hard real-time systems on ARM Cortex-M4
 - Used the MAST suite for schedulability analysis and profiled worst-case execution time (WCET)
 - _Technologies used_: Ada, Rust, RTIC, Ravenscar, ARM Cortex-M4, MAST
 <br><br>
 
+**Intelligent Robotics with ROS 2** <br>
+_Master's Course Project, Intelligent Robotics (group work)_
+- **UR5 Cube Swap** · [GitHub](https://github.com/dawit-andargachew/ros2-ur5-vision-based-cube-swap): a simulated UR5 arm locates two cubes with AprilTags and swaps them between tables, orchestrated by a BehaviorTree with automatic retries
+- **Autonomous Navigation Between AprilTags** · [GitHub](https://github.com/dawit-andargachew/ros2-nav2-apriltag-navigation): a mobile robot computes a goal from two AprilTags, drives there with Nav2, then detects cylindrical tables with lidar
+- _Technologies used_: C++, ROS 2, MoveIt 2, Nav2, BehaviorTree.CPP, AprilTag
+<br><br>
+
 ### Undergraduate
 
-**Glioblastoma Cell Segmentation Pipeline** <br>
+**Glioblastoma Cell Segmentation Pipeline** · [GitHub](https://github.com/tharencandi/undergrad_capstone) <br>
 _Undergraduate Capstone Project (Feb 2023 - Aug 2023)_
 - Engineered and deployed an automated deep learning pipeline for segmentation of gigapixel whole-slide images
 - Trained a DRAN CNN (U-Net) in TensorFlow, and built the pipeline with OpenCV, Celery and Redis
