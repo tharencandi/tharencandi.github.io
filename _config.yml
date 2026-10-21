@@ -14,8 +14,11 @@ contact:
     url: https://www.linkedin.com/in/tharen-candi-191620214/
   - label: GitHub
     url: https://github.com/tharencandi/
-  - label: CV web-version
-    url: https://tharencandi.github.io
+  - label: Download CV
+    url: /cv/Tharen_Candi_CV.pdf
+
+# Keep the Typst source out of the published site
+exclude: [cv/cv.typ]
 
 # Page content lives in index.md; CV entries live in _data/*.yml and are
 # rendered by _includes/entry.html.
