@@ -107,7 +107,7 @@ masters:
         short: Fused speech (wav2vec 2.0) and facial (MediaPipe + XGBoost) models for 7-class emotion recognition.
       - long: "Temperature-scaled late fusion of the two branches improved accuracy by 11–18 points (best: 86.7%)"
         short: "Temperature-scaled late fusion improved accuracy by 11–18 points (best: 86.7%)."
-      - long: "Built the FER branch as an XGBoost random forest (XGBoostRF) on MediaPipe facial blendshapes: a 369-dimensional summary vector of 7 per-channel descriptors over the 52 blendshape channels, plus 5 inter-group ratios"
+      - long: "Built the FER branch as an XGBoost random forest (XGBoostRF) on MediaPipe facial blendshapes: a 376-dimensional summary vector of 7 per-channel descriptors over 53 blendshape channels (the 52 ARKit blendshapes plus MediaPipe's _neutral score), plus 5 inter-group ratios"
       - long: "Compared three speech models on the same actor-disjoint split: a frozen wav2vec 2.0 probe, LoRA-adapted wav2vec 2.0, and a frozen emotion2vec probe"
       - long: "Found that a general speech model (wav2vec 2.0) beats one pretrained specifically for emotion (emotion2vec): 72.5% vs 68.3%"
         short: "Showed a general speech model (wav2vec 2.0) beats an emotion-specific one (emotion2vec): 72.5% vs 68.3%."
