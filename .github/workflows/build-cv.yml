@@ -21,10 +21,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # No cache-dependency-path: that compiles cv/cv.typ without --root, which
+      # can't reach _data/. The compile step fetches the packages itself.
       - uses: typst-community/setup-typst@v4
         with:
           typst-version: 0.15.1
-          cache-dependency-path: cv/cv.typ
 
       - name: Compile CV
         run: cv/build.sh
