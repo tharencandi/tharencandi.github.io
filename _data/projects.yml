@@ -96,16 +96,23 @@ masters:
     subtitle: Master's Course Project · Speech Processing
     short_subtitle: ""
     date: Jun 2026 – Jul 2026
+    links:
+      - label: Project page
+        url: https://tharencandi.net/fer-ser-fusion/
+        short_label: Paper
+      - label: GitHub
+        url: https://github.com/tharencandi/fer-ser-fusion
     bullets:
       - long: Built an audio-visual system that classifies 7 emotions from short RAVDESS speech video clips, combining speech emotion recognition (SER) on self-supervised speech representations with facial emotion recognition (FER)
         short: Fused speech (wav2vec 2.0) and facial (MediaPipe + XGBoost) models for 7-class emotion recognition.
       - long: "Temperature-scaled late fusion of the two branches improved accuracy by 11–18 points (best: 86.7%)"
         short: "Temperature-scaled late fusion improved accuracy by 11–18 points (best: 86.7%)."
-      - long: "Built the FER branch as an XGBoost random forest (XGBoostRF) on MediaPipe facial blendshapes: a 569-dimensional summary vector of 7 per-channel descriptors over the 52 blendshape channels, plus inter-group ratios"
-      - long: "Compared three audio approaches: frozen wav2vec 2.0 probing, LoRA-adapted wav2vec 2.0, and zero-shot emotion2vec"
+      - long: "Built the FER branch as an XGBoost random forest (XGBoostRF) on MediaPipe facial blendshapes: a 369-dimensional summary vector of 7 per-channel descriptors over the 52 blendshape channels, plus 5 inter-group ratios"
+      - long: "Compared three speech models on the same actor-disjoint split: a frozen wav2vec 2.0 probe, LoRA-adapted wav2vec 2.0, and a frozen emotion2vec probe"
       - long: "Found that a general speech model (wav2vec 2.0) beats one pretrained specifically for emotion (emotion2vec): 72.5% vs 68.3%"
         short: "Showed a general speech model (wav2vec 2.0) beats an emotion-specific one (emotion2vec): 72.5% vs 68.3%."
-      - long: Found that LoRA improved audio-only performance but degraded after fusion compared with the frozen probe, showing that the best single-modality model is not always the best one to fuse
+      - long: LoRA beat the frozen probe slightly on its own (72.5% vs 71.3%) and clearly after fusion (86.7% vs 82.1%)
+      - long: "The face model is strongest where speech is weakest: happy (100% recall vs 38% for LoRA wav2vec 2.0) and sad (84% vs 50%)"
     tags: [Python, PyTorch, Hugging Face, PEFT/LoRA, MediaPipe, XGBoost]
 
   - title: Evaluating Dynamic Object Removal and Scene Stabilisation Strategies for Multi-View Consistent Video

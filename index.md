@@ -11,6 +11,7 @@ image:
 ## Featured Links
 - [The Limits of Cross-Lingual Transfer: Evaluating SignCLIP on LIS](https://tharencandi.net/signclip-lis-experiments/)
 - [Hard Real-Time Systems Analysis (RTIC, Ravenscar, MAST)](https://tharencandi.net/rtic-ravenscar-mast-analysis/)
+- [Hearing and Seeing Emotion: Speech + Face Fusion on RAVDESS](https://tharencandi.net/fer-ser-fusion/)
 - [Evaluating Dynamic Object Removal and Scene Stabilisation Strategies for Multi-View Consistent Video](https://tharencandi.net/dynamic-object-removal-for-diffusion-gen-videos-and-3dgs-recon/)
 - [NLP & AI Notes (UniPD)](https://tharencandi.net/nlp-unipd-notes/)
 
