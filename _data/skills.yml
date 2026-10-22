@@ -1,0 +1,49 @@
+# Skills for both the website and the CV. Each line has a long (website,
+# Markdown) and/or a short (CV) list, under title / short_title (default:
+# title); leave one out to keep the line off that output.
+
+- title: Programming Languages
+  short_title: Languages
+  long: Python, C/C++, Rust, Ada, Java, Scala
+  short: Python, C/C++, Rust, Ada, Java, Scala
+
+- title: ML & Data
+  short_title: ML
+  long: PyTorch, TensorFlow, Hugging Face, OpenCV, MediaPipe, NumPy, PEFT/LoRA
+  short: PyTorch, TensorFlow, Hugging Face, OpenCV
+
+- title: TinyML & Edge AI
+  long: MicroFlow, LiteRT (TensorFlow Lite Micro), on-device inference
+
+- title: Embedded & Real-Time
+  long: RIOT OS, Rust RTIC, embedded Rust/C, Ada Ravenscar, ESP32/ESP32-S3, ARM Cortex-M4, device drivers (SPI/I2C), WCET analysis, MAST
+
+- title: Robotics
+  long: ROS 2
+
+- title: Parallel & Concurrent
+  long: CUDA, OpenMP, pthreads, multi-core programming
+
+- title: Systems & Tools
+  long: Linux/Debian, Bash, Git, OS kernels
+
+# CV only: draws on the embedded, robotics, parallel and tools lines above.
+- title: Systems
+  short: RIOT OS, RTIC, ROS 2, Linux, CUDA, Git
+
+- title: DevOps & Automation
+  long: CI/CD (Jenkins), ActiveBatch, ETL pipelines, automated testing
+
+- title: Databases
+  long: PostgreSQL, SQL Server, SQLite
+
+- title: Web & Networking
+  long: REST APIs, web protocols, networking
+
+- title: Methodologies
+  long: Agile, Scrum, XP, Jira, UML
+
+- title: Spoken Languages
+  short_title: Spoken
+  long: 🇦🇺 English (native), 🇮🇹 Italian (B2), 🇬🇷 Greek (A1)
+  short: English (native), Italian (B2), Greek (A1)

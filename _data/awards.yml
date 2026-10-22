@@ -1,34 +1,50 @@
+# Honours and awards for both the website and the CV. show works as in
+# projects.yml; on the CV each entry reads "short_title: short_subtitle (date)".
+
 - title: Master's Study Grant
+  show: [web, cv]
   org: Italian Ministry of Foreign Affairs
   org_url: https://www.esteri.it/
+  short_subtitle: Italian MFA
   date: 2024, 2025
   note: Study grant for a Master's degree in Italy.
 
 - title: Dean's List for Excellence in Academic Performance
+  short_title: Dean's List
+  show: [web, cv]
   org: USYD
   org_url: https://www.sydney.edu.au/
+  short_subtitle: University of Sydney
   date: "2023"
   note: Academic excellence in the Bachelor of Computing.
 
 - title: Vice-Chancellor's Global Mobility Scholarship
+  short_title: Global Mobility Scholarship
+  show: [web, cv]
   org: USYD
   org_url: https://www.sydney.edu.au/
+  short_subtitle: USYD
   date: "2022"
   note: Scholarship for high-achieving students to study on exchange.
 
 - title: HSC Top Achiever in Information Processes and Technology
+  short_title: HSC Top Achiever
+  show: [web, cv]
   org: NESA
   org_url: https://educationstandards.nsw.edu.au/
+  short_subtitle: 6th in State for IPT
   date: "2019"
   note: Ranked 6th in the state.
 
 - title: School Subject Prizes
+  show: [web]
   org: Trinity Grammar School
   org_url: https://www.trinity.nsw.edu.au/
   date: 2018 – 2019
   note: First in course for Software Design and Development, Information Processes and Technology, and Advanced English, in both Year 11 and Year 12.
 
 - title: Battle of the Bands Winner
+  show: [web]
   org: Trinity Grammar School
   org_url: https://www.trinity.nsw.edu.au/
   date: "2019"

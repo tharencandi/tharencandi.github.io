@@ -1,8 +1,12 @@
 {% comment %}
   Renders one CV entry from a _data file. Fields (all optional except title):
-  title, url, org, org_url, subtitle, date, note, summary, bullets[], tags[], links[{label, url}], image
+  title, url, org, org_url, subtitle, date, note, summary, bullets[{long, short}], tags[], links[{label, url}], image, show
+  Skips entries whose show list lacks "web" (unset means web only) and renders
+  each bullet's long version; short versions are for the PDF CV (cv/cv.typ).
 {% endcomment %}
 {% assign e = include.entry %}
+{% if e.show == nil or e.show contains "web" %}
+{% assign bullets = e.bullets | map: "long" | compact %}
 <div class="entry{% if e.image %} has-thumb{% endif %}">
   {% if e.image %}<img class="entry-thumb" src="{{ e.image | relative_url }}" alt="">{% endif %}
   <div class="entry-body">
@@ -20,9 +24,9 @@
     {% endif %}
     {% if e.note %}<div class="entry-note">{{ e.note | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
     {% if e.summary %}<div class="entry-note">{{ e.summary | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
-    {% if e.bullets %}
+    {% if bullets.size > 0 %}
     <ul>
-      {% for b in e.bullets %}<li>{{ b | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+      {% for b in bullets %}<li>{{ b | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
     </ul>
     {% endif %}
     {% if e.tags %}
@@ -30,3 +34,4 @@
     {% endif %}
   </div>
 </div>
+{% endif %}

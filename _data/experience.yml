@@ -1,30 +1,42 @@
+# Work experience for both the website and the CV. Fields work as in
+# projects.yml (show, long/short bullets); location is CV only.
+
 - title: Graduate Intern – Carbon Trading and Origination
+  show: [web, cv]
   org: Glencore
   org_url: https://www.glencore.com/
   date: Jul 2024 – Sep 2024
   bullets:
-    - Developed ETL data pipelines and automated processes for supply and demand forecasting (Python, SQL Server, ActiveBatch), turning a 5-hour manual process into a fully automated system
-    - Conducted market modelling and analysis in the carbon trading sector in Excel
-    - Wrote technical and end-user documentation for internal tools and processes
-  tags: [Python, SQL Server, ActiveBatch, ETL, Data analysis, Excel, Technical documentation]
+    - long: "Fully automated supply and demand forecasting operations with ETL pipelines (Python, SQL Server, ActiveBatch): data ingestion, manual cleaning and ArcGIS workflows for the Clean Energy Regulator's ACCU Register, saving the team 5 hours of manual work per cycle"
+      short: Automated forecasting ingestion, cleaning and ArcGIS workflows for the CER ACCU Register, saving 5 h per cycle.
+    - long: Developed supply-side carbon market models and analytics in Power BI and Excel
+      short: Built supply-side carbon market models and analytics in Power BI and Excel.
+    - long: Wrote technical and end-user documentation for the automated workflows, so every team member could maintain them long-term
+      short: Documented the automated workflows for technical and non-technical users so the team could maintain them.
+  tags: [Python, SQL Server, ActiveBatch, ETL, ArcGIS, Power BI, Excel, Data analysis, Technical documentation]
 
 - title: Private Tutor
+  show: [web]
   org: Self-employed
   date: Feb 2021 – Jul 2024
   bullets:
-    - Tutored university students in OOP and systems programming using C, Java and Python
+    - long: Tutored university students in OOP and systems programming using C, Java and Python
   tags: [Teaching, C, Java, Python, OOP, Systems programming, Communication]
 
 - title: Online Department Shift Leader
+  show: [web, cv]
   org: Coles
   org_url: https://www.coles.com.au/
+  location: Clemton Park, Sydney
   date: Aug 2021 – Aug 2022
   bullets:
-    - Led online order fulfilment for pickup and delivery, managing time-sensitive logistics and customer service
+    - long: Led online order fulfilment for pickup and delivery, managing time-sensitive logistics, customer service and manual labour
+      short: Led online order fulfilment for pickup and delivery, managing time-sensitive logistics and customer service.
 
 - title: Musical Staff
+  show: [web]
   org: Trinity Grammar School
   org_url: https://www.trinity.nsw.edu.au/
   date: Dec 2019 – Mar 2020
   bullets:
-    - "Played guitar and keyboard in the school production of *School of Rock: The Musical* and helped students learn their instruments for their on-stage roles"
+    - long: "Played guitar and keyboard in the school production of *School of Rock: The Musical* and helped students learn their instruments for their on-stage roles"

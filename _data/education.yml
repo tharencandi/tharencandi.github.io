@@ -1,28 +1,36 @@
-- title: MSc Computer Science (AI Major)
+# Education for both the website and the CV. show works as in projects.yml;
+# on the CV each entry is one line: "org, title · note", dates on the right.
+
+- title: MSc Computer Science (AI)
+  show: [web, cv]
   org: University of Padova
   org_url: https://www.unipd.it/
-  date: Oct 2024 – Present
+  date: Oct 2024 – Apr 2027
   note: "GPA: 28.08/30"
 
 - title: BComp (Computer Science)
+  show: [web, cv]
   org: University of Sydney
   org_url: https://www.sydney.edu.au/
-  date: Feb 2020 – Aug 2023
-  note: "WAM: 82.2 (Distinction)"
+  date: Feb 2020 – Dec 2023
+  note: "GPA: 82.2/100 (Distinction)"
 
-- title: Exchange Program (Computer Science)
+- title: Exchange Program
+  show: [web, cv]
   org: EPFL
   org_url: https://www.epfl.ch/
   date: Sep 2022 – Feb 2023
   note: "GPA: 5.6/6.0"
 
 - title: 14-week Intensive Italian Language and Cultural Immersion Course
+  show: [web]
   org: Centro di Lingua e Cultura Italiana per Stranieri
   org_url: https://scuola-italiano-milano.com/en/
   subtitle: Milan, Italy
   date: Mar 2023 – Jun 2023
 
 - title: Higher School Certificate
+  show: [web]
   org: Trinity Grammar School
   org_url: https://www.trinity.nsw.edu.au/
   date: "2019"

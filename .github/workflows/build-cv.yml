@@ -1,11 +1,11 @@
-# Rebuilds cv/Tharen_Candi_CV.pdf from cv/cv.typ whenever the Typst source
-# changes on main, and commits the PDF back so GitHub Pages serves it.
+# Rebuilds cv/Tharen_Candi_CV.pdf whenever cv/cv.typ or the _data/*.yml it
+# reads changes on main, and commits the PDF back so GitHub Pages serves it.
 name: Build CV
 
 on:
   push:
     branches: [main]
-    paths: [cv/cv.typ]
+    paths: [cv/cv.typ, cv/build.sh, '_data/*.yml']
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
           cache-dependency-path: cv/cv.typ
 
       - name: Compile CV
-        run: typst compile cv/cv.typ cv/Tharen_Candi_CV.pdf
+        run: cv/build.sh
 
       - name: Commit PDF if it changed
         run: |
@@ -37,6 +37,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "PDF unchanged"
           else
-            git commit -m "Rebuild CV PDF from cv.typ"
+            git commit -m "Rebuild CV PDF"
             git push
           fi

@@ -1,0 +1,7 @@
+# Local Jekyll preview
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock

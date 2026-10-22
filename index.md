@@ -28,19 +28,8 @@ Alongside my thesis, I do research on sign language recognition and multilingual
 My goal is to work on innovative technologies that positively impact people's lives.
 
 ## Skills
-- **Programming Languages:** Python, C/C++, Rust, Ada, Java, Scala
-- **ML & Data:** PyTorch, TensorFlow, Hugging Face, OpenCV, MediaPipe, NumPy, PEFT/LoRA
-- **TinyML & Edge AI:** MicroFlow, LiteRT (TensorFlow Lite Micro), on-device inference
-- **Embedded & Real-Time:** RIOT OS, Rust RTIC, embedded Rust/C, Ada Ravenscar, ESP32/ESP32-S3, ARM Cortex-M4, device drivers (SPI/I2C), WCET analysis, MAST
-- **Robotics:** ROS 2
-- **Parallel & Concurrent:** CUDA, OpenMP, pthreads, multi-core programming
-- **Systems & Tools:** Linux/Debian, Bash, Git, OS kernels
-- **DevOps & Automation:** CI/CD (Jenkins), ActiveBatch, ETL pipelines, automated testing
-- **Databases:** PostgreSQL, SQL Server, SQLite
-- **Web & Networking:** REST APIs, web protocols, networking
-- **Methodologies:** Agile, Scrum, XP, Jira, UML
-- **Spoken Languages:** 🇦🇺 English (native), 🇮🇹 Italian (B2), 🇬🇷 Greek (A1)
-{: .skills}
+{% for s in site.data.skills %}{% if s.long %}- **{{ s.title }}:** {{ s.long }}
+{% endif %}{% endfor %}{: .skills}
 
 ## Education
 {% for e in site.data.education %}{% include entry.html entry=e %}{% endfor %}

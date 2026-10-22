@@ -7,7 +7,7 @@ logo: headshot.png
 
 # Profile header (used by _layouts/default.html)
 tagline: MSc Computer Science (AI) @ University of Padova · AI and systems
-location: Padova, Italy
+location: Padova, Italy / Sydney, Australia
 contact:
   - label: Email
     url: mailto:candi.tharen@gmail.com
@@ -18,8 +18,8 @@ contact:
   - label: Download CV
     url: /cv/Tharen_Candi_CV.pdf
 
-# Keep the Typst source out of the published site
-exclude: [cv/cv.typ]
+# Keep the CV sources and local-preview files out of the published site
+exclude: [cv/cv.typ, cv/build.sh, Gemfile, Gemfile.lock, vendor]
 
 # Page content lives in index.md; CV entries live in _data/*.yml and are
 # rendered by _includes/entry.html.
