@@ -49,11 +49,11 @@ masters:
         url: https://github.com/tharencandi/signclip-lis-experiments
     bullets:
       # On the website this result is part of the ablation bullet below.
-      - short: Matched SOTA on A3LIS-147 with a fine-tuned linear probe (R@1 80.2%) and 10x less training time.
+      - short: Matched SOTA on A3LIS-147 with a fine-tuned linear probe (R@1 80.2%).
       - long: First study of SignCLIP's multilingual transfer to low-resource LIS, testing the iconicity hypothesis across zero-shot, few-shot and fine-tuning, on the A3LIS-147 and SignIT datasets
         short: "First SignCLIP study on Italian Sign Language: zero-shot transfer helps iconic signs, hurts non-iconic ones."
       - long: "Showed that aligning many sign languages to one English text space causes negative zero-shot transfer: it helps iconic signs and hurts non-iconic ones"
-      - long: Ran a fine-tuning ablation over six contrastive objectives (InfoNCE, SupCon, GlobalNCE, DHN-NCE, ProLIP, cross-entropy). GlobalNCE raised zero-shot R@1 from 3.7% to 76.2%, and its linear probe (R@1 80.2%) matches the previous state of the art on A3LIS-147 with 10x less training time
+      - long: Ran a fine-tuning ablation over six contrastive objectives (InfoNCE, SupCon, GlobalNCE, DHN-NCE, ProLIP, cross-entropy). GlobalNCE raised zero-shot R@1 from 3.7% to 76.2%, and its linear probe (R@1 80.2%) matches the previous state of the art on A3LIS-147
         short: "Ablated six contrastive losses: GlobalNCE fine-tuning raised zero-shot R@1 from 3.7% to 76.2%."
       - long: On SignIT, outperformed all of the original authors' non-video baselines using pose keypoints only
     tags: [Python, PyTorch, fairseq, MediaPipe Holistic, scikit-learn]
@@ -118,7 +118,7 @@ masters:
   - title: Evaluating Dynamic Object Removal and Scene Stabilisation Strategies for Multi-View Consistent Video
     short_title: Dynamic Object Removal for 3D Reconstruction of Generated Video
     show: [web]
-    subtitle: Pair project with Nicole Mietto
+    subtitle: Master's Course Project · Advanced Topics in Data Science, taught by Iro Armeni (Stanford) and Lamberto Ballan · with Nicole Mietto
     date: "2026"
     links:
       - label: Project page
