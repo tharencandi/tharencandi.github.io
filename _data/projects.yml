@@ -81,8 +81,8 @@ masters:
     bullets:
       - long: Built a pipeline that predicts 85 anatomical ear landmarks from 3D head scans, for personalised spatial audio (HRTF)
         short: Predicted 85 ear landmarks from 3D head scans at ~1.2 mm mean error, for personalised spatial audio.
-      - long: Ranked 12th of 38 teams (top third) on the public leaderboard as an all-Master's team, in a challenge that recommended PhD members
-        short: Ranked 12th of 38 teams (top third) as an all-Master's team in a challenge that recommended PhD members.
+      - long: Ranked 14th of 38 teams (top third) on the public leaderboard as an all-Master's team, in a challenge that recommended PhD members
+        short: Ranked 14th of 38 teams (top third) as an all-Master's team in a challenge that recommended PhD members.
       - long: "Split the task in two: predict 15 anchor landmarks, then trace the remaining 70 contour points between them, reaching ~1.2 mm mean error overall"
       - long: "Anchors: fused three different networks (multi-hypothesis DGCNN, HRNet heatmaps on rendered depth/curvature images, Point2SSM++) with per-landmark agreement weighting, deployed as cross-validated ensembles"
         short: Ensembled DGCNN, HRNet and Point2SSM++ for 15 anchors; traced 70 contour points as shape-guided geodesics.
